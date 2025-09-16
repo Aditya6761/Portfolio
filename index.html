@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I’m Aditya, a passionate developer who loves learning new technologies and building useful applications.</p>
+    </section>
+
+    <section id="certificates">
+        <h2>Certificates</h2>
+        <div class="certificates-container">
+            <div class="certificate">
+                <img src="image/Certificate1.png" alt="Certificate 1" />
+                <p>Agile Project Management</p>
+            </div>
+            <div class="certificate">
+                <img src="image/Certificate2.png" alt="Certificate 2" />
+                <p>Agile with Atlassian Jira</p>
+            </div>
+            <div class="certificate">
+                <img src="image/Certificate3.png" alt="Certificate 3" />
+                <p>Blockchain Basics</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">Python</div>
+            <div class="skill">Java</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <input type="email" id="email" placeholder="Your Email" required />
+            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p id="form-response"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
